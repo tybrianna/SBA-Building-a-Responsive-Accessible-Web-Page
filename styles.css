@@ -1,0 +1,32 @@
+.site-header {
+    background-image: url(https://media.istockphoto.com/id/1432955867/vector/technology-abstract-lines-and-dots-connect-background-with-hexagons-hexagon-grid-hexagons.jpg?s=612x612&w=0&k=20&c=gSMTHNjpqgpDU06e3G8GhQTUcqEcWfvafMFjzT3qzzQ=);
+    background-size: cover;
+    color: navy;
+    padding: 5px 20px;
+    text-align: center;
+    word-spacing: 2px;
+
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: navy;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+}
