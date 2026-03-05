@@ -30,3 +30,11 @@ h1 {
     color: white;
     text-shadow: 2px 2px 2px grey;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media [not] media-type and (media-feature: value) and (media-feature: value) {
+    /* CSS rules to apply */
+}
