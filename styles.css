@@ -33,6 +33,7 @@ h1 {
 
 html {
     scroll-behavior: smooth;
+    background-color: mintcream;
 }
 
 form {
@@ -49,6 +50,38 @@ input:valid {
 border: 2px solid green;
 }
 
+main {
+    background-color: #546a7b;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+form {
+    background-color: #546a7b;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+button {
+    background-color: white;
+    color: #546a7b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #546a7b;
+    color: white;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
 @media [not] media-type and (media-feature: value) and (media-feature: value) {
     /* CSS rules to apply */
 }
