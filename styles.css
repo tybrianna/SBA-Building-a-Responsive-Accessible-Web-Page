@@ -82,6 +82,22 @@ button:hover {
     border: 2px solid white;
     transition-duration: 0.2s;
 }
+
+footer {
+    background-color: #546a7b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    font-weight: 700;
+    text-align: center;
+}
+
+label {
+    vertical-align: top;
+}
 @media [not] media-type and (media-feature: value) and (media-feature: value) {
     /* CSS rules to apply */
 }
