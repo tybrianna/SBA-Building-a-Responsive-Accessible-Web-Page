@@ -35,6 +35,20 @@ html {
     scroll-behavior: smooth;
 }
 
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+input:invalid {
+border: 2px solid red;
+}
+
+input:valid {
+border: 2px solid green;
+}
+
 @media [not] media-type and (media-feature: value) and (media-feature: value) {
     /* CSS rules to apply */
 }
